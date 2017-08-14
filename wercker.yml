@@ -1,7 +1,13 @@
 box: debian
 build:
   steps:
-    - arjen/hugo-build:
-      version: "0.17"
-      theme: herring-cove
-      flags: --buildDrafts=true
+    - arjen/hugo-build@1.19.0
+
+deploy:
+  steps:
+    - install-packages:
+      packages: git ssh-client
+    - seveniu.github.io/master:
+      token: $GIT_TOKEN
+      domain: seveniu.github.io
+      basedir: public
