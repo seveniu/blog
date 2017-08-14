@@ -1,6 +1,6 @@
 # Site settings
 languageCode = "en-us"
-baseurl = "http://blog.seveniu.com"
+baseurl = "http://localhost:1313"
 title = "S"
 theme = "hugo-fabric"
 rssuri = "atom.xml"
