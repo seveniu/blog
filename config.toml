@@ -1,9 +1,10 @@
 # Site settings
+DefaultContentLanguage = "zh-CN"
 languageCode = "en-us"
 baseurl = "http://localhost:1313"
 title = "S"
 theme = "hugo-fabric"
-rssuri = "atom.xml"
+#rssuri = "atom.xml"
 
 [params]
   [params.theme]
