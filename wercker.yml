@@ -1,6 +1,5 @@
 box:
   id: debian
-  cmd: /bin/sh
 build:
   steps:
     - arjen/hugo-build@1.19.0
