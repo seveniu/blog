@@ -12,3 +12,4 @@ deploy:
       domain: seveniu.github.io
       basedir: public
       repo: seveniu/seveniu.github.io
+
