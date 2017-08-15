@@ -9,7 +9,8 @@ deploy:
   steps:
     - install-packages:
       packages: git ssh-client
-    - seveniu.github.io/gh-pages@0.2.1:
+    - lukevivier/gh-pages:
       token: $GIT_TOKEN
       domain: seveniu.github.io
       basedir: public
+      repo: seveniu/seveniu.github.io
