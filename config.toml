@@ -18,11 +18,11 @@ theme = "hugo-fabric"
     # social account
     github_user = "wd"
     twitter_user = "wd"
-    disqus_shortname = "wdicc"
+    # disqus_shortname = "wdicc"
 
     # post sharing
-    facebook_like = true
-    twitter_tweet_button = true
-    google_plus_one = true
-    google_plus_one_size = "midum"
-    addthis_profile_id = "wd"
+    # facebook_like = true
+    # twitter_tweet_button = true
+    # google_plus_one = true
+    # google_plus_one_size = "midum"
+    # addthis_profile_id = "wd"
