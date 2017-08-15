@@ -1,7 +1,7 @@
 # Site settings
 DefaultContentLanguage = "zh-CN"
 languageCode = "en-us"
-baseurl = "http://localhost:1313"
+baseurl = "https://seveniu.github.io"
 title = "S"
 theme = "hugo-fabric"
 #rssuri = "atom.xml"
