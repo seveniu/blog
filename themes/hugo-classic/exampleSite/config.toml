@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Seveniu"
+title = "Classic"
 theme = "hugo-classic"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
@@ -28,4 +28,4 @@ footnotereturnlinkcontents = "↩"
 
 [params]
     description = "A simple, minimal blog for those who love text."
-    footer = "Open-Source | [Github](https://github.com/seveniu)"
+    footer = "Open-Source | [Github](https://github.com/goodroot/hugo-classic) | [Twitter](https://twitter.com/thegoodroot)"

@@ -1,8 +1,0 @@
-<% if post.author %>
-  <% assign author = post.author %>
-<% elsif page.author %>
-  <% assign author = page.author %>
-<% else %>
-  <% assign author = theme.author %>
-<% } %>
-<% if author %><span class="byline author vcard">Posted by <span class="fn"><%= author %></span></span><% } %>
