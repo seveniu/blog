@@ -47,6 +47,7 @@ Java虚拟机定义了在执行程序期间使用的各种运行时数据区域�
       
       书中以及其他博客经常表达成深度，个人感觉不太合适，其实是限制的大小，深度只是经常对递归调用而言的
   * 关于 oome R大的回答
+
       ![](http://ww1.sinaimg.cn/large/9ce9f97aly1fiylemchg4j20my0c2jun.jpg)
       -Xss配置的是栈大小，不是栈帧￼数量。
 题主的问题其实要针对特定JVM实现问才有意义。
@@ -55,6 +56,7 @@ Java虚拟机定义了在执行程序期间使用的各种运行时数据区域�
 后者的话，栈是一段一段慢慢分配出来的，如果当前段已经用完了要申请新的段时得不到足够空间，也会抛OOME。这种VM如果没用到-Xss上限就遇到分配不到新的段的状况会抛OOME，否则如果已经达到了-Xss上限会抛StackOverflowException。
 ​
 * java 虚拟机栈在内存中的位置
+
     ![](http://ww1.sinaimg.cn/large/9ce9f97aly1fiylfver7sj20n40bswhk.jpg)
 HotSpot VM在native memory里分配Java线程栈，没有分配上限，一直能分配到耗尽native内存（无论是虚拟内存还是虚拟内存地址空间）。​
 
