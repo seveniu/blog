@@ -3,6 +3,7 @@ title: "JVM 中规定的运行时数据区域"
 date: 2017-08-28T17:02:18+08:00
 tags: ["jvm"]
 categories: ["jvm"]
+toc: true
 ---
 
 ## 概述
