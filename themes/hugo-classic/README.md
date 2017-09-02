@@ -46,7 +46,7 @@ To adjust the header colour, head to `static/css/style.css` and change...
 
 ```
 header {
-    background: #613DC1;
+    background: #4285f4;
 }
 ```
 

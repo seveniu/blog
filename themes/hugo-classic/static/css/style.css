@@ -22,23 +22,20 @@ output:
 
 #TableOfContents {
   background: #f9f9f9 none repeat scroll 0 0;
-  /* border: 1px solid #aaa; */
   display: table;
   font-size: 95%;
   margin-bottom: 1em;
-  overflow: hidden;
-  width: 200px;
   position: fixed;
-  left: 10px;
-  overflow: auto;
+  left: 120px;
+  margin-top: 30px;
 }
 
-#TableOfContents a {
+#TableOfContents ul li a {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
   transition-property: all;
-  color: #666;
+  color: #4285f4;
   border-bottom-color: #ccc;
   word-wrap: break-word;
 }
@@ -48,13 +45,16 @@ output:
   padding-left: 10px;
 }
 
-#TableOfContents ul > ul {
+#TableOfContents > ul {
   padding-left: 0;
+  margin-left: -16px;
+  width: 250px;
 }
 #TableOfContents li {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  word-break: break-all;
   line-height: 1.8;
 }
 
@@ -62,7 +62,7 @@ output:
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #D2D6EF;
+  background: #bfd7ff;
   color: #FFF;
   padding: 5px;
   border-radius: 5px;
@@ -81,7 +81,7 @@ footer a { text-decoration: none; }
 }
 
 a {
-  color: #613DC1;
+  color: #4285f4;
   text-decoration: none;
 }
 
@@ -96,8 +96,7 @@ header {
     height: 1.75rem;
     font-family: "Lucida Console" , "Liberation Mono";
     font-size: .875rem;
-    background: #613DC1;
-    border-bottom: 1px solid #000;
+    background: #4285f4;
 }
 
 header ul,
