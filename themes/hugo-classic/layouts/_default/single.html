@@ -1,5 +1,5 @@
-<main>
 {{ partial "header.html" . }}
+<main>
 <div class="article-meta">
 <h2><span class="title">{{ .Title }}</span></h2>
 {{ with .Params.author }}<h2 class="author">{{ . }}</h2>{{ end }}
@@ -13,6 +13,7 @@
 </div>
 </div>
 
+<hr>
 {{ if .Params.toc }}
 <div id="toc">
   <div>目录</div>

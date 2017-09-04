@@ -28,7 +28,7 @@ output:
   font-size: 95%;
   margin-bottom: 1em;
   position: fixed;
-  left: 120px;
+  left: 250px;
   margin-top: 30px;
 }
 
@@ -123,12 +123,16 @@ header .current a {
 
 /* Images, tables, misc. */
 img, iframe, video { max-width: 100%; }
+
 .content {
    hyphens: auto; 
-   margin-top: 30px;
    background-color: #fff;
-   padding: 40px;
+   padding: 20px 40px;
+   line-height: 1.67;
+   word-break: break-word;
+   font-size: 16px;
 }
+
 blockquote {
   background: #f9f9f9;
   border-left: 5px solid #ccc;
@@ -143,3 +147,8 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 tr:nth-child(even) { background: #eee }
+
+.content img {
+  -moz-box-shadow:0px 0px 10px #666666; -webkit-box-shadow:0px 0px 10px #666666; box-shadow:0px 0px 10px #666666;
+  margin-bottom: 20px
+}
