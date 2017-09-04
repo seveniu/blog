@@ -34,8 +34,13 @@ toc: true
 
 > 推荐使用 utf8mb4_unicode_ci
 
-参考：
-    [http://seanlook.com/2016/10/23/mysql-utf8mb4/](http://seanlook.com/2016/10/23/mysql-utf8mb4/)
-    [https://dev.mysql.com/doc/refman/5.7/en/charset-unicode-utf8mb4.html](https://dev.mysql.com/doc/refman/5.7/en/charset-unicode-utf8mb4.html)
-    [https://stackoverflow.com/questions/766809/whats-the-difference-between-utf8-general-ci-and-utf8-unicode-ci](https://stackoverflow.com/questions/766809/whats-the-difference-between-utf8-general-ci-and-utf8-unicode-ci)
+------
+
+### 参考
+
+[http://seanlook.com/2016/10/23/mysql-utf8mb4/](http://seanlook.com/2016/10/23/mysql-utf8mb4/)
+
+[https://dev.mysql.com/doc/refman/5.7/en/charset-unicode-utf8mb4.html](https://dev.mysql.com/doc/refman/5.7/en/charset-unicode-utf8mb4.html)
+
+[https://stackoverflow.com/questions/766809/whats-the-difference-between-utf8-general-ci-and-utf8-unicode-ci](https://stackoverflow.com/questions/766809/whats-the-difference-between-utf8-general-ci-and-utf8-unicode-ci)
 

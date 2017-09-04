@@ -1,11 +1,13 @@
+<main>
 {{ partial "header.html" . }}
 
 {{if not .IsHome }}
 <h1>{{ .Title }}</h1>
 {{ end }}
-
+<div class="content markdown-body">
 {{ .Content }}
-
+</div>
+<h3>Blog</h3>
 <ul>
   {{ range (where .Data.Pages "Section" "!=" "") }}
   <li>
@@ -16,3 +18,4 @@
 </ul>
 
 {{ partial "footer.html" . }}
+</main>

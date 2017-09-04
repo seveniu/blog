@@ -3,6 +3,11 @@ body {
   margin: auto;
   padding: .2em;
   line-height: 1.5em;
+  background-color: #fafafa
+}
+
+main {
+  background-color: #fff
 }
 
 /* Table of Contents, if wanted
@@ -15,13 +20,10 @@ output:
 
     */
 
-#TableOfContents, #TOC {
+#toc {
   border: 1px solid #eee;
   border-radius: 5px;
-}
-
-#TableOfContents {
-  background: #f9f9f9 none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   display: table;
   font-size: 95%;
   margin-bottom: 1em;
@@ -30,7 +32,7 @@ output:
   margin-top: 30px;
 }
 
-#TableOfContents ul li a {
+#toc ul li a {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
@@ -40,17 +42,17 @@ output:
   word-wrap: break-word;
 }
 
-#TableOfContents li, #TableOfContents ul, #TableOfContents ul li{
+#toc li, #toc ul, #toc ul li{
   list-style: outside none none !important;
   padding-left: 10px;
 }
 
-#TableOfContents > ul {
+#toc #TableOfContents > ul {
   padding-left: 0;
   margin-left: -16px;
   width: 250px;
 }
-#TableOfContents li {
+#toc li {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -61,15 +63,15 @@ output:
 /* Header and Footer */
 .menu li { display: inline-block; }
 .article-meta, .menu a {
-  text-decoration: none;
-  background: #bfd7ff;
-  color: #FFF;
   padding: 5px;
   border-radius: 5px;
 }
+.article-meta .terms a {
+  text-decoration: underline;
+}
+.menu, .article-meta, footer { text-align: center; }
 
 .terms { font-size: .9em; }
-.menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 
@@ -119,23 +121,12 @@ header .current a {
     color: #fff
 }
 
-/* Code Boxes */
-pre {
-  border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
-  background: #f8f8f8;
-  padding: 1em;
-  overflow-x: auto;
-}
-code { background: #f9f9f9; }
-pre code { background: none; }
-
 /* Images, tables, misc. */
 img, iframe, video { max-width: 100%; }
-main {
+.content {
    hyphens: auto; 
    margin-top: 30px;
-   background-color: #f9f9f9;
+   background-color: #fff;
    padding: 40px;
 }
 blockquote {
