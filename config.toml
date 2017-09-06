@@ -45,7 +45,7 @@ footnotereturnlinkcontents = "↩"
     # Shown in the home page
     subtitle = ""
     brand = "Seveniu"
-    # googleAnalytics = "Your Google Analytics tracking ID"
+    googleAnalytics = "UA-106014492-1"
     disqus = "Your Disqus shortname"
     # CSS name for highlight.js
     highlightjs = "androidstudio"
