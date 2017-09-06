@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Seveniu"
 theme = "blackburn"
+#theme = "hugo-classic"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
