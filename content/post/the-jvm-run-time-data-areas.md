@@ -17,6 +17,7 @@ Java虚拟机定义了在执行程序期间使用的各种运行时数据区域�
 * Run-Time Constant Pool -- 运行时常量池
 * native method stacks -- 本地方法栈
 
+<!--more-->
 一图胜千言
 
 ![](http://ww1.sinaimg.cn/large/9ce9f97aly1fizklxpy51j209e0agdfz.jpg)

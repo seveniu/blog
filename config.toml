@@ -1,8 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Seveniu"
-theme = "hugo-classic"
-googleAnalytics = ""
+theme = "blackburn"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
@@ -15,13 +14,21 @@ footnotereturnlinkcontents = "↩"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
+    identifier = "post"
+    url = "/post/"
+[[menu.main]]
+    name = "Categories"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    url = "/categories/"
+    weight = 3
 [[menu.main]]
     name = "Tags"
+    pre = "<i class='fa fa-list fa-fw'></i>"
     url = "/tags/"
-    weight = 3
+    weight = 4
 [[menu.feed]]
     name = "Subscribe"
     url = "/index.xml"
@@ -29,3 +36,12 @@ footnotereturnlinkcontents = "↩"
 [params]
     description = "A simple, minimal blog for those who love text."
     footer = "Open-Source | [Github](https://github.com/seveniu)"
+    # Shown in the home page
+    subtitle = "A Hugo Theme"
+    brand = "Seveniu"
+    # googleAnalytics = "Your Google Analytics tracking ID"
+    disqus = "Your Disqus shortname"
+    # CSS name for highlight.js
+    highlightjs = "androidstudio"
+    highlightjs_extra_languages = ["yaml"]
+    dateFormat = "02 Jan 2006"

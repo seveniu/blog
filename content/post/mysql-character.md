@@ -6,12 +6,12 @@ categories: ["Mysql"]
 toc: true
 ---
 
-
 ### Mysql 的字符集
 
     Character Set 是存储字符集
     Collation 是排序字符集
 
+<!--more-->
 ### Character Set
 
 #### `utf8`, `utf8mb4` 选择
