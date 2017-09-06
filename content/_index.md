@@ -1,13 +1,5 @@
 ---
-title: Home
+title: Seveniu's Blog
 ---
-## Seveniu's Blog
-
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
-}
-```
+### 最近寻求新的工作机会中，有意可看[简历](http://static.seveniu.com/resume.pdf)
 --------

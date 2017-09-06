@@ -30,6 +30,11 @@ footnotereturnlinkcontents = "↩"
     pre = "<i class='fa fa-list fa-fw'></i>"
     url = "/tags/"
     weight = 4
+[[menu.main]]
+    name = "Resume"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    url = "http://static.seveniu.com/resume.pdf"
+    weight = 10
 [[menu.feed]]
     name = "Subscribe"
     url = "/index.xml"
@@ -38,7 +43,7 @@ footnotereturnlinkcontents = "↩"
     description = "A simple, minimal blog for those who love text."
     footer = "Open-Source | [Github](https://github.com/seveniu)"
     # Shown in the home page
-    subtitle = "A Hugo Theme"
+    subtitle = ""
     brand = "Seveniu"
     # googleAnalytics = "Your Google Analytics tracking ID"
     disqus = "Your Disqus shortname"
