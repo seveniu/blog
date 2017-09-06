@@ -1,0 +1,23 @@
+{{ if .Params.toc }}
+<div id="toc">
+  <div id="tocButton">目录</div>
+{{ .TableOfContents }}
+</div>
+{{ end }}
+<script type="">
+(function() {
+    var tocNav = document.getElementById("TableOfContents");
+    tocNav.style.display = 'none'
+    var open = false;
+    var btn = document.getElementById("tocButton");
+    btn.onclick = function(e){
+        if (open) {
+            tocNav.style.display = 'none'
+            open = false;
+        } else {
+            tocNav.style.display = 'block'
+            open = true;
+        }
+    };
+})()
+</script>

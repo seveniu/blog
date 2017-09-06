@@ -46,3 +46,4 @@ footnotereturnlinkcontents = "↩"
     highlightjs = "androidstudio"
     highlightjs_extra_languages = ["yaml"]
     dateFormat = "02 Jan 2006"
+    custom_css = ["css/custom.css"]
