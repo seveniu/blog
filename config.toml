@@ -48,7 +48,8 @@ footnotereturnlinkcontents = "↩"
     googleAnalytics = "UA-106018051-1"
     disqus = "Your Disqus shortname"
     # CSS name for highlight.js
-    highlightjs = "androidstudio"
+    highlightjs = "atom-one-light"
+    markdowncss = "github-markdown-css"
     highlightjs_extra_languages = ["yaml"]
     dateFormat = "02 Jan 2006"
     custom_css = ["css/custom.css"]

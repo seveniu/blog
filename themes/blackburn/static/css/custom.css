@@ -43,7 +43,15 @@
   line-height: 1.8;
 }
 
-
+.content {
+  color: #464646;
+  hyphens: auto; 
+  background-color: #fff;
+  padding: 20px 40px;
+  line-height: 1.67;
+  word-break: break-word;
+  font-size: 16px;
+}
 .content img {
   -moz-box-shadow:0px 0px 10px #666666; -webkit-box-shadow:0px 0px 10px #666666; box-shadow:0px 0px 10px #666666;
   margin-bottom: 20px
@@ -56,3 +64,11 @@ a {
 a:visited {
     color: #609;
 }
+
+body {
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+  font-size: 15px;
+  color: #262626;
+  /* line-height: 1.67; */
+}
+
