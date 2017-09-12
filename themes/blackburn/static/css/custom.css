@@ -71,3 +71,7 @@ body {
   /* line-height: 1.67; */
 }
 
+div.notify {
+  text-align: center;
+  color: #4285f4
+}

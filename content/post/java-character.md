@@ -8,9 +8,9 @@ toc: true
 
 
 
-### java 中字符如何存储
+### Java 中字符如何存储
 
-java 中的字符信息是基于  Unicode 的  java 8 中对应的 Unicode 版本是 6.2.0，用 utf-16 编码的 16bit 的码元(code unit) 序列表示的。
+Java 中的字符信息是基于  Unicode 的  java 8 中对应的 Unicode 版本是 6.2.0，用 utf-16 编码的 16bit 的码元(code unit) 序列表示的。
 
 <!--more-->
 

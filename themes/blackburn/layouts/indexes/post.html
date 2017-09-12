@@ -1,9 +1,9 @@
 {{ partial "header.html" . }}
 
 <div class="header">
-  <h1>{{ .Title }}</h1>
+  <!--<h1>{{ .Title }}</h1>-->
 </div>
-<div class="content markdown-body">
+<div class="content">
   {{ range .Data.Pages.GroupByDate "2006" }}
   <h2>{{ .Key }}</h2>
   <ul>
