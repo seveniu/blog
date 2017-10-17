@@ -66,6 +66,8 @@ String 的常量并不是立即调用 intern 方法进入常量池的。
 
 ### 其他相关文章：
 [关于Java内存分配的一道题?](https://www.zhihu.com/question/38881695/answer/78650273)
+
 [为什么Java中的密码优先使用 char[] 而不是String？](https://www.zhihu.com/question/36734157)
+
 [How many Objects created with: String str=new String("Hello")？](http://www.ciaoshen.com/java/2016/07/29/string.html)
 
