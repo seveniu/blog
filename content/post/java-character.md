@@ -2,7 +2,7 @@
 title: "Java String Structure"
 date: 2017-09-07T11:52:38+08:00
 tags: ["string","encode"]
-categories: ["java 基础"]
+categories: ["jvm"]
 toc: true
 ---
 
