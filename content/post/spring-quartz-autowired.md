@@ -3,6 +3,7 @@ title: "Spring 中使用 Quartz 时，Job 无法注入spring bean的问题"
 date: 2017-10-20T17:12:01+08:00
 tags: ["quartz","spring"]
 categories: ["quartz"]
+description: "解决 Spring 中使用 Quartz 时，Job 无法注入spring bean的问题"
 toc: true
 ---
 
