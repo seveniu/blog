@@ -1,0 +1,55 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Seveniu"
+theme = "blackburn"
+#theme = "hugo-classic"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+[[menu.main]]
+    name = "Categories"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    url = "/categories/"
+    weight = 3
+[[menu.main]]
+    name = "Tags"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    url = "/tags/"
+    weight = 4
+[[menu.main]]
+    name = "Resume"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    url = "http://static.seveniu.com/resume.pdf"
+    weight = 10
+[[menu.feed]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = "A simple, minimal blog for those who love text."
+    footer = "Open-Source | [Github](https://github.com/seveniu)"
+    # Shown in the home page
+    subtitle = ""
+    brand = "Seveniu"
+    googleAnalytics = "UA-106018051-1"
+    disqus = "Your Disqus shortname"
+    # CSS name for highlight.js
+    highlightjs = "atom-one-light"
+    markdowncss = "github-markdown-css"
+    highlightjs_extra_languages = ["yaml"]
+    dateFormat = "02 Jan 2006"
+    custom_css = ["css/custom.css"]
