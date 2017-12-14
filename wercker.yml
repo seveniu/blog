@@ -2,7 +2,7 @@ box:
   id: debian
 build:
   steps:
-    - arjen/hugo-build@1.19.0
+    - arjen/hugo-build@1.24.0
 deploy:
   steps:
     - install-packages:
