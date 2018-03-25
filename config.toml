@@ -40,6 +40,11 @@ copyright = "author.name"            # default: author.name ↓        # 默认�
   weight = 40
   identifier = "categories"
   url = "/categories/"
+[[menu.main]]
+  name = "Leetcode"
+  weight = 40
+  identifier = "leetcode"
+  url = "/categories/leetcode"
 
 [params]
   version = "3.x"           # Used to give a friendly message when you have an incompatible update
