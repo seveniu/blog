@@ -1,6 +1,6 @@
 ---
-title: "LeetCode -- 771 : Jewels and Stones"
-date: 2018-03-22T22:07:51+08:00
+title: "LeetCode -- 797-all-paths-from-source-to-target"
+date: 2018-03-24T23:01:37+08:00
 tags: []
 categories: ["leetcode"]
 toc: true

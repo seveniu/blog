@@ -1,6 +1,6 @@
 ---
-title: "461-hamming-distance"
-date: 2018-03-24T21:03:31+08:00
+title: "LeetCode -- 461-hamming-distance"
+date: 2018-03-23T21:03:31+08:00
 tags: []
 categories: ["leetcode"]
 toc: true
