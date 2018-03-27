@@ -32,7 +32,7 @@ After running your query, the above salary table should have the following rows:
 
 ### 解法
 
-update table set sex = ( CASE sex WHEN 'm' THEN 'f' ELSE 'm' END CASE )
+​	update salary set sex = ( CASE sex WHEN 'm' THEN 'f' ELSE 'm' END )
 
 ### 算法应用
 
