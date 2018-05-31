@@ -1,12 +1,11 @@
-
-
 ---
 title: "Java String 知识点补充以及在 Java 9 中的变化"
-date: 2017-09-12T22:07:51+08:00
+date: 2018-05-12T22:07:51+08:00
 tags: ["java", "java 9"]
 categories: ["java"]
 toc: true
 ---
+
 
 1. G1 垃圾回收器对字符串的优化
 
